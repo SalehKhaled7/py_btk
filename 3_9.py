@@ -25,6 +25,8 @@ result = "my name is " + name + " " +surname+", my age is "+str(age)+" and i am 
 result = "my name is {0}  {1}, my age is {2} and i am an {3} ".format(name,surname,age,job)
 result = f"my name is {name} {surname}, my age is {age} and i am an {job}"
 
+#print("my name is",name,surname,", my age is ",age," and i am an ",job)
+
 # 7- 'Hello world' ifadesindeki w harfini 'W' ile değiştirin.
 s ="hello world"
 result = s[:6]+"W"+s[-4:]
