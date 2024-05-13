@@ -1,5 +1,4 @@
 main.py
 *.pyc
-records.txt
-file.txt
-results.txt
+*.txt
+myenv
