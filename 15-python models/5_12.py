@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 url = "https://www.imdb.com/chart/toptv/?ref_=nv_tvv_250"
 headers = {
-    "User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0"
+    "User-Agent":"your agent here"
 }
 response = requests.get(url,headers=headers).content
 
